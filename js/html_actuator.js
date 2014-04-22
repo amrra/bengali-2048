@@ -155,13 +155,13 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "gabrielecirulli");
-  tweet.setAttribute("data-url", "http://git.io/2048");
-  tweet.setAttribute("data-counturl", "http://gabrielecirulli.github.io/2048/");
+  tweet.setAttribute("data-via", "amrra");
+  tweet.setAttribute("data-url", "https://amrra.github.io/bengali-2048/");
+  tweet.setAttribute("data-counturl", "https://amrra.github.io/bengali-2048/");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at 2048, a game where you " +
-             "join numbers to score high! #2048game";
+  var text = "I scored " + this.score + " points at Bengali 2048, a game where you " +
+             "join numbers to score high! #bengali2048game";
   tweet.setAttribute("data-text", text);
 
   return tweet;
